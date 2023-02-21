@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Lato:wght@700&family=Poppins:wght@400;700&display=swap");
+
+header {
+	font-family: "Poppins";
+}
+
+main {
+	background: rgba(178, 245, 200, 0.63);
+}
+/* Menghilangkan underline */
+.NavLink {
+	text-decoration: none;
+}
+
+/* Menghilangkan warna biru pada saat di-click */
+.NavLink:active,
+.NavLink:focus,
+.NavLink:hover {
+	outline: none;
+}
+
+/* .navbar-toggler.open .navbar-toggler-icon {
+	background-image: url("./images/x.png");
+} */
